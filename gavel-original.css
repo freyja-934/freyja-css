@@ -1,0 +1,476 @@
+@import url("https://www.gavelcustomcssgenerator.com/documatecss.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap")
+  .nav-pills .nav-link: not(.active): not(.text-muted) {
+  color: #6b6b6b !important;
+}
+.nav-pills .nav-link:not(.active).text-muted {
+  color: #6b6b6b !important;
+  opacity: 38%;
+}
+.nav-link {
+}
+.nav-link.active {
+  background-color: #f9f6ff !important;
+  color: #7428f2 !important;
+  font-weight: 700 !important;
+}
+.row.da-field-container.da-field-container-note,
+.da-subquestion {
+  color: #170f15 !important;
+}
+.da-page-header {
+}
+.da-page-header h1 {
+  color: #170f15 !important;
+  font-family: "Open Sans" !important;
+}
+.da-form-label {
+  color: #170f15 !important;
+  font-family: "Lato" !important;
+}
+.da-field-container-datatype-text .dafieldpart input,
+.da-field-container-datatype-integer .dafieldpart input,
+.da-field-container-datatype-email .dafieldpart input,
+.da-field-container-datatype-date .dafieldpart input,
+.da-field-container-datatype-number .dafieldpart input,
+.da-field-container-datatype-csv .dafieldpart input {
+  color: #170f15 !important;
+  font-family: "Lato" !important;
+  border-top: 0;
+  border-radius: 0;
+  border-inline: 0;
+}
+.da-field-container-inputtype-area .dafieldpart textarea {
+  color: #170f15 !important;
+  font-family: "Lato" !important;
+}
+input.labelauty + label.btn-light {
+}
+input.labelauty + label.btn-primary {
+  background-color: #d4c5fc !important;
+}
+input.labelauty + label.btn-light:hover,
+input.labelauty + label.btn-primary:hover,
+input.labelauty + label.btn-light:focus,
+input.labelauty + label.btn-primary:focus {
+  background-color: #d4c5fc !important;
+}
+.labelauty-checked-image {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px #8356f7 !important;
+  background-color: #8356f7 !important;
+}
+.labelauty-checked {
+}
+.labelauty-unchecked-image {
+}
+.labelauty-unchecked {
+  color: #170f15 !important;
+}
+.da-field-checkboxes span.labelauty-checked-image {
+  box-shadow: #8356f7 0px 0px 0px 1px !important;
+  background-color: #8356f7 !important;
+}
+.da-field-checkboxes span.labelauty-unchecked-image {
+}
+span.da-has-error {
+}
+.invalid-feedback {
+}
+.combobox-container input {
+  color: #170f15 !important;
+}
+.dropdown-menu {
+}
+.dacomboboxtoggle {
+  color: #4a22bd !important;
+  border-color: #4a22bd !important;
+}
+.dacomboboxtoggle:hover {
+  background-color: #4a22bd !important;
+}
+.dropdown-item {
+  color: #170f15 !important;
+}
+.dropdown-item:hover,
+.dropdown-item.active {
+  background-color: #4a22bd !important;
+}
+.form-select {
+  color: #170f15 !important;
+  font-family: "Lato" !important;
+}
+button.daquestionbackbutton.btn-light {
+  border-color: #4a22bd !important;
+}
+button.daquestionbackbutton {
+  color: #4a22bd !important;
+}
+button.daquestionbackbutton:hover {
+  color: #8356f7 !important;
+}
+fieldset.daFieldButtons {
+}
+.btn.btn-da.btn-primary,
+.btn.btn-primary:disabled,
+.btn.btn-primary.disabled,
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  border-color: #4a22bd !important;
+  border-radius: 5px !important;
+  background-color: #4a22bd !important;
+}
+.btn.btn-da.btn-primary {
+  border-color: transparent !important;
+}
+.btn.btn-da.btn-secondary,
+p .btn-secondary.btn-sm {
+  color: #4a22bd !important;
+  background-color: #ffffff !important;
+  border-width: 0px !important;
+}
+.btn.btn-da.btn-secondary:hover,
+p .btn-secondary.btn-sm:hover {
+  color: #ffffff !important;
+  background-color: #4a22bd !important;
+  border-color: #4a22bd !important;
+}
+.btn-warning {
+  border-color: #4a22bd !important;
+  border-radius: 5px !important;
+}
+.btn.btn-da.btn-primary:hover {
+  background-color: #8356f7 !important;
+}
+.row.da-field-container.da-field-container-note h4 {
+}
+.bg-light {
+  background-color: #d4c5fc !important;
+}
+.da-review-button {
+}
+#daform .da-review-action.da-review-action-button,
+table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
+  color: #d4c5fc !important;
+  background-color: #4a22bd !important;
+}
+#daform .da-review-action.da-review-action-button:hover,
+table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
+  background-color: #4a22bd !important;
+}
+.da-review-button p {
+}
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  color: #170f15 !important;
+  font-family: "Lato" !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  outline-color: undefined !important;
+  outline-style: undefined !important;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__placeholder {
+  font-family: "Lato" !important;
+}
+.select2-results__option {
+  font-family: "Lato" !important;
+}
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable {
+}
+.select2-container--default
+  .select2-results__option--selectable.select2-results__option--highlighted {
+  background-color: #4a22bd !important;
+}
+.text-info {
+  color: #170f15 !important;
+}
+.text-info:hover {
+  color: #170f15 !important;
+}
+.da-attachment-title-wrapper h3 {
+  color: #170f15 !important;
+}
+.da-attachment-download-wrapper p a {
+  color: #4a22bd !important;
+  background-color: transparent !important;
+  border-radius: 20px;
+  border-color: #4a22bd !important;
+  border-width: 1px;
+  border: 1px solid;
+}
+.da-attachment-download-wrapper p a:hover {
+  background-color: #4a22bd !important;
+  color: #fff !important;
+}
+hr {
+}
+.table-responsive + p a.btn-success,
+.btn.dacollectadd {
+  border-radius: 5px !important;
+}
+.table-responsive + p a.btn-success:hover,
+.btn.dacollectadd:hover {
+  background-color: #8356f7 !important;
+}
+table.table.table-striped tr td a.btn.btn-darevisit.btn-danger,
+button.btn.dacollectremoveexisting,
+button.btn.dacollectremove {
+}
+table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover,
+button.btn.dacollectremoveexisting:hover,
+button.btn.dacollectremove:hover {
+  background-color: rgb(197 59 0 / 100%) !important;
+  color: #fff !important;
+  border-color: rgb(197 59 0 / 100%) !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open Sans" !important;
+}
+.da-subquestion h2,
+.h2 {
+}
+.table.table-striped thead th {
+  font-family: "Lato" !important;
+}
+.table-striped tbody tr:nth-of-type(2n + 1),
+.table.table-striped thead th {
+}
+.table-striped tbody tr:nth-of-type(2n) {
+}
+.table > :not(caption) > * > * {
+  box-shadow: none !important;
+}
+.table tr {
+}
+.btn-info {
+  background-color: #4a22bd !important;
+  border-color: #4a22bd !important;
+  color: #fff !important;
+  font-family: undefined !important;
+  border-radius: 5px !important;
+}
+.btn-info:hover {
+  background-color: #8356f7 !important;
+  border-color: #8356f7 !important;
+  color: #fff !important;
+}
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn.btn-da.btn-primary:focus,
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+.fa-question-circle::before {
+  color: #1f2041;
+}
+.fa-question-circle:hover {
+  color: #8356f7;
+}
+.da-button-set.da-field-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-pills .nav-link {
+  padding-left: 2rem !important;
+}
+.hslNavContainer,
+.container {
+  max-width: none !important;
+  padding-inline: 64px;
+}
+body.dabody,
+.da-form-label {
+  font-family: "Lato" !important;
+}
+.da-form-label {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+.form-control:focus {
+  border-width: 2px;
+  border-top: 0;
+  border-inline: 0;
+  border-color: #4a22bd !important;
+}
+.da-field-container-inputtype-area .dafieldpart textarea {
+  border-top: 0;
+  border-inline: 0;
+  border-width: 2px;
+  border-radius: 0;
+}
+input.labelauty + label.btn-light {
+  border: 0;
+}
+.h1 {
+  font-size: 2.5em !important; /* 40px */
+  margin-bottom: 0.5em !important;
+}
+.h2 {
+  font-size: 2em !important; /* 32px */
+  margin-bottom: 0.75em !important;
+}
+.h3 {
+  font-size: 1.75em !important; /* 28px */
+  margin-bottom: 1em !important;
+}
+.h4 {
+  font-size: 1.5em !important; /* 24px */
+  margin-bottom: 1.25em !important;
+}
+.h5 {
+  font-size: 1.25em !important; /* 20px */
+  margin-bottom: 1.5em !important;
+}
+.h6 {
+  font-size: 1em !important; /* 16px */
+  margin-bottom: 1.75em !important;
+}
+.form-control,
+#hslNav {
+  background-color: #f0eeed important;
+  color: #4a22bd !important;
+}
+.row .tab-content {
+  align-items: flex-start !important;
+}
+.row.tab-content > .danavdiv {
+  flex: none !important;
+  margin-left: 0 !important;
+}
+.form-horizontal {
+  max-width: 741px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.bg-light {
+  background-color: #d4c5fc33 !important;
+}
+.btn.btn-da.btn-primary:focus {
+  border: 2px solid #fff !important; /* Updated for better contrast and importance */
+  outline: none !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 0 4px #4a22bd !important; /* Enhanced shadow for more depth */
+}
+.daquestionbackbutton:focus {
+  border: 2px solid #4a22bd !important; /* Simple, contrasting border */
+  outline: none !important;
+}
+.table {
+  --bs-table-bg: transparent !important;
+  --bs-table-accent-bg: #d4c5fc !important; /* Amaranth for a lighter accent */
+  --bs-table-striped-color: #212529 !important;
+  --bs-table-striped-bg: #8356f7 !important; /* Ultraviolet for striped rows */
+  --bs-table-active-color: #212529 !important;
+  --bs-table-active-bg: #4a22bd !important; /* Orchid for active rows, a vibrant secondary color */
+  --bs-table-hover-color: #212529 !important;
+  --bs-table-hover-bg: #ccffe8 !important; /* Celadon for hover, an accent color */
+  width: 100% !important;
+  margin-bottom: 1rem !important;
+  color: #212529 !important;
+  vertical-align: top !important;
+  border-color: #170f15 !important; /* Charcoal, a deep neutral */
+}
+.table.table-striped thead th {
+  background: #8356f7 !important;
+  border-top: 0 !important;
+  border-bottom: 2px solid #8356f7 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+.table-striped tbody tr:nth-of-type(2n + 1) {
+  background-color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(2n) {
+  background-color: #d4c5fc33 !important;
+}
+.nav-pills .nav-link:not(.active):not(.text-muted)::before {
+  color: #111827 !important;
+  content: "\2713\0020" !important;
+  border: 0;
+}
+.nav-pills .nav-link:not(.active):not(.text-muted) {
+  color: #111827 !important;
+}
+.nav-pills .nav-link:not(.active):not(.text-muted)::after {
+  display: none !important;
+}
+.nav-pills .nav-link:not(.active).text-muted::before {
+  border: 2px solid #6b6b6b !important;
+  content: "";
+  opacity: 70%;
+  left: 0.5em;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  top: 50%;
+  position: absolute;
+}
+.daclickable.nav-link.danavlink.active::before,
+.nav-link.active::before {
+  border: 2px solid #7428f2 !important;
+  content: "";
+  left: 0.5em;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  top: 50%;
+  position: absolute;
+}
+#hslNav .hslNavContainer {
+  padding-inline: 64px !important;
+}
+@media only screen and (max-width: 991px) {
+  #hslNav .hslNavContainer {
+    padding: 20px 32px 20px !important;
+  }
+}
+@media (max-width: 600px) {
+  .hslNavContainer,
+  .container {
+    padding-inline: 16px;
+  }
+  #hslNav .hslNavContainer {
+    padding: 20px 16px 20px !important;
+  }
+}
+/* Adjust padding for tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .hslNavContainer,
+  .container {
+    padding-inline: 32px;
+  }
+}
+.tab-pane.offset-xl-3.offset-lg-3.offset-md-2 .form-horizontal {
+  margin-left: 0 !important;
+}
+.tab-pane:not(.offset-xl-3):not(.offset-lg-3):not(.offset-md-2)
+  .form-horizontal {
+  margin-left: auto !important;
+}
+form#daemailform .btn {
+  border: 1px solid #4a22bd !important;
+  color: #4a22bd !important;
+  background-color: transparent !important;
+}
+form#daemailform .btn:hover {
+  background-color: #4a22bd !important;
+  color: #fff !important;
+}

@@ -4207,6 +4207,7 @@ input[type="button"].btn-block {
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #4a22bd;
+  font-weight: 700;
 }
 
 .nav-pills .nav-link:not(.active).text-muted {

@@ -86,9 +86,7 @@ body {
 }
 
 body.dabody {
-  font-family: "Source Sans Pro", sans-serif, Roboto, "Helvetica Neue", Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
+  font-family: "Lato";
 }
 
 [tabindex="-1"]:focus {

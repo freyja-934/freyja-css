@@ -2567,8 +2567,7 @@ fieldset:disabled a.btn {
 
 .btn-success:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0069d9;
+  background-color: #8356f7;
 }
 
 .btn-success:focus,
@@ -10258,8 +10257,7 @@ body.dasignature a.btn-primary {
 
 body.dasignature a.btn-primary:hover {
   color: #fff !important;
-  background-color: #0069d9 !important;
-  border-color: #0062cc !important;
+  background-color: #8356f7 !important;
 }
 
 body.dasignature a.btn-primary:focus {
@@ -10326,8 +10324,7 @@ form#daemailform .btn:hover,
 .table-responsive + p a.btn-success:hover,
 .btn.dacollectadd:hover,
 table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
-  background-color: #0069d9;
-  border-color: #0069d9;
+  background-color: #8356f7;
   color: #fff;
 }
 

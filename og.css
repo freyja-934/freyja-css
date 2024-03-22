@@ -2486,14 +2486,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #0050a6;
-  border-color: #0050a6;
+  background-color: #4a22bd;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #8356f7;
 }
 
 .btn-primary:focus,
@@ -10847,8 +10845,8 @@ input[type="number"] {
 }
 
 .nav.nav-pills .nav-link.active {
-  background: #0050a6;
-  color: #ffffff;
+  background: #f9f6ff;
+  color: #7428f2;
 }
 
 .nav.nav-pills .nav-link:not(.active):focus,

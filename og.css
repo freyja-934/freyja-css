@@ -2831,16 +2831,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #0b5fa5;
+  color: #4a22bd;
   background-color: transparent;
   background-image: none;
-  border-color: #0b5fa5;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #0b5fa5;
-  border-color: #0b5fa5;
+  background-color: #4a22bd;
 }
 
 .btn-outline-secondary:focus,
@@ -9654,26 +9652,26 @@ input.labelauty + label.btn-light {
 }
 
 input.labelauty + label.btn-light:hover {
-  background-color: #e8f0fa;
+  background-color: #d4c5fc;
 }
 
 input.labelauty + label.btn-primary:hover {
-  background-color: #e8f0fa;
+  background-color: #d4c5fc;
 }
 
 input.labelauty + label.btn-light:focus {
-  background-color: #a9c7ec;
+  background-color: #d4c5fc;
 }
 
 input.labelauty + label.btn-primary {
-  background-color: #a9c7ec;
+  background-color: #d4c5fc;
   color: #000;
 }
 
 input.labelauty + label.btn-primary:focus,
 input.labelauty + label.btn-primary:active,
 input.labelauty + label.btn-primary:not(:disabled):not(.disabled):active {
-  background-color: #a9c7ec;
+  background-color: #d4c5fc;
 }
 
 input.labelauty + label .svg-inline--fa {

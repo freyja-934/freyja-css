@@ -10300,7 +10300,7 @@ form#dadownloadform .btn,
 .custom-range::-ms-thumb,
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: #0050a6;
+  background-color: #4a22bd;
 }
 
 .btn-primary,
@@ -10309,8 +10309,7 @@ form#dadownloadform .btn,
 .list-group-item.active,
 .btn-primary.disabled,
 .btn-primary:disabled {
-  background-color: #0050a6;
-  border-color: #0050a6;
+  background-color: #4a22bd;
 }
 
 /*Primary Colors end */

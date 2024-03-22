@@ -4209,6 +4209,10 @@ input[type="button"].btn-block {
   background-color: #4a22bd;
 }
 
+.nav-pills .nav-link:not(.active).text-muted {
+  opacity: 38%;
+}
+
 .nav-fill .nav-item {
   flex: 1 1 auto;
   text-align: center;

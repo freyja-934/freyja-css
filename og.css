@@ -10301,6 +10301,7 @@ form#dadownloadform .btn,
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: #4a22bd;
+  border-radius: 5px;
 }
 
 .btn-primary,

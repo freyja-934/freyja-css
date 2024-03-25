@@ -4109,6 +4109,10 @@ input[type="button"].btn-block {
   list-style: none;
 }
 
+div[role="navigation"] {
+  margin-left: 0;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -6434,7 +6438,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #e8f0fa !important;
+  background-color: #d4c5fc33 !important;
 }
 
 a.bg-light:hover,
@@ -10450,6 +10454,8 @@ input#da_attachment_include_editable {
 
 #daquestion fieldset.da-field-buttons {
   margin: 20px 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 input.labelauty + label {
@@ -10655,8 +10661,8 @@ form#daemailform input[type="email"] {
   position: relative;
   font-size: 0;
   padding: 0.25rem 0.5rem;
-  background: rgba(0, 123, 255, 0.15);
-  color: #0069d9;
+  background: #d4c5fc33;
+  color: #7428f2;
   border: 0;
   box-shadow: none !important;
   width: auto;
@@ -11075,8 +11081,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-right: auto;
     margin-left: unset;
   }
-}
-
-div[rel="navigation"] {
-  margin-left: 0;
 }

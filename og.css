@@ -9813,13 +9813,6 @@ select {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 992px) {
-  .tab-pane {
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
-}
-
 .tab-pane p em {
   font-family: "Avenir", Georgia, Times, serif;
   /*font-size: 1.25rem;*/
@@ -10305,13 +10298,21 @@ body.dasignature a.btn-primary:focus {
   max-width: 2000px;
 }
 
-.row.tab-content {
-  justify-content: center;
-}
-
 @media (min-width: 992px) {
   .hslNavContainer {
     max-width: 960px !important;
+  }
+}
+
+.row.tab-content {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media (min-width: 1200px) {
+  .row.tab-content {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
@@ -10945,7 +10946,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .card-body form#daemailform .form-check {
   margin-left: 0px;
 }
-
+.row.tab-content > .danavdiv {
+  flex: 0 0 21.666667%;
+  max-width: 21.666667%;
+}
+.tab-pane {
+  flex: 0 0 78.333333%;
+  max-width: calc(78.333333% - 50px);
+}
 /* My Responsive style start here
 ===========================================================================*/
 @media only screen and (min-width: 1200px) {
@@ -10966,11 +10974,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .row.tab-content > .danavdiv {
     flex: 0 0 30%;
-    max-width: 30%;
+    max-width: 20%;
+  }
+
+  .row.tab-content > .danavdiv {
+    flex: 0 0 21.666667%;
+    max-width: 21.666667%;
+  }
+  .tab-pane {
+    flex: 0 0 78.333333%;
+    max-width: 78.333333%;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
   body #hslNav .hslNavContainer {
     max-width: 720px;
   }
@@ -10992,6 +11009,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .card-body form#daemailform .form-check {
     margin-left: 0px;
+  }
+
+  .row.tab-content > .danavdiv {
+    flex: 0 0 21.666667%;
+    max-width: 21.666667%;
+  }
+  .tab-pane {
+    flex: 0 0 78.333333%;
+    max-width: 78.333333%;
   }
 }
 

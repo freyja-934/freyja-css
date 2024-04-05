@@ -3,6 +3,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://rsms.me/inter/inter.css");
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -10270,13 +10271,13 @@ body.dasignature a.btn-primary:focus {
 }
 
 #hslNav .hslNavContainer {
-  max-width: 1920px !important;
+  max-width: 1280px !important;
   padding: 30px 15px 20px !important;
 }
 
 .hslNavContainer,
 .container {
-  max-width: 1920px;
+  max-width: 1280px;
 }
 
 @media (min-width: 992px) {

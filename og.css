@@ -10276,7 +10276,7 @@ body.dasignature a.btn-primary:focus {
 
 .hslNavContainer,
 .container {
-  max-width: 2000px;
+  max-width: 1920px;
 }
 
 @media (min-width: 992px) {

@@ -4187,29 +4187,15 @@ div[role="navigation"] {
 }
 
 
-.nav-pills .nav-link:not(.active):not(.text-muted)::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0.5em;
-  /* Adjust according to your design */
-  transform: translateY(-50%);
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  border: 2px solid #7428f2;
-  background-color: transparent;
-  z-index: 0;
-}
 
 .nav-pills .nav-link:not(.active):not(.text-muted)::after {
   content: "\2713";
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 0.55em;
-  /* Adjust according to your design */
   transform: translateY(-70%);
   font-size: 1.2em;
+  font-family: Inter, sans-serif;
   color: #7428f2;
   z-index: 1;
 }

@@ -4182,34 +4182,49 @@ div[role="navigation"] {
 }
 
 .nav-link:not(.active):not(.text-muted) {
-  color: #7428f2 !important;
+  color: #25262b !important;
 }
 
 .nav-pills .nav-link:not(.active):not(.text-muted)::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0.5em;
-  /* Adjust according to your design */
-  transform: translateY(-50%);
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  border: 2px solid #7428f2;
-  background-color: transparent;
-  z-index: 0;
+  display: none;
 }
 
 .nav-pills .nav-link:not(.active):not(.text-muted)::after {
   content: "\2713";
   position: absolute;
-  top: 50%;
+  top: calc(50% + 6px);
   left: 0.55em;
   /* Adjust according to your design */
   transform: translateY(-70%);
   font-size: 1.2em;
-  color: #7428f2;
+  color: #25262b;
   z-index: 1;
+}
+
+.daclickable.nav-link.danavlink.active::before,
+.nav-link.active::before {
+  border: 2px solid #7428f2;
+  content: "";
+  left: 0.5em;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+.nav-pills .nav-link:not(.active).text-muted::before {
+  border: 2px solid #6b6b6b;
+  content: "";
+  opacity: 70%;
+  left: 0.5em;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  top: 50%;
+  position: absolute;
 }
 
 .nav-pills .nav-link.active,

@@ -4215,17 +4215,6 @@ div[role="navigation"] {
   z-index: 1;
 }
 
-.nav.nav-pills .nav-link.active:before {
-  border: 2px solid #7428f2;
-  content: "";
-  left: 0.5em;
-  transform: translateY(-50%);
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  top: 50%;
-  position: absolute;
-}
 .nav-pills .nav-link:not(.active).text-muted::before {
   border: 2px solid #6b6b6b;
   content: "";
@@ -11161,7 +11150,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-left: unset;
   }
 }
-
 
 /* line 108, ../sass/screen.scss */
 :root {
@@ -24577,4 +24565,3 @@ p a {
   filter: invert(39%) sepia(15%) saturate(1354%) hue-rotate(149deg)
     brightness(95%) contrast(99%);
 }
-

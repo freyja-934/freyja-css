@@ -4190,43 +4190,6 @@ div[role="navigation"] {
   display: none;
 }
 
-.nav-pills .nav-link:not(.active):not(.text-muted)::after {
-  content: "\2713";
-  position: absolute;
-  top: calc(50% + 6px);
-  left: 0.55em;
-  /* Adjust according to your design */
-  transform: translateY(-70%);
-  font-size: 1.2em;
-  color: #25262b;
-  z-index: 1;
-}
-
-.nav.nav-pills .nav-link.active:before {
-  border: 2px solid #7428f2;
-  content: "";
-  left: 0.5em;
-  transform: translateY(-50%);
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  top: 50%;
-  position: absolute;
-}
-
-.nav-pills .nav-link:not(.active).text-muted::before {
-  border: 2px solid #6b6b6b;
-  content: "";
-  opacity: 70%;
-  left: 0.5em;
-  transform: translateY(-50%);
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  top: 50%;
-  position: absolute;
-}
-
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;

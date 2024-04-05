@@ -4202,8 +4202,7 @@ div[role="navigation"] {
   z-index: 1;
 }
 
-.daclickable.nav-link.danavlink.active::before,
-.nav-link.active::before {
+.nav.nav-pills .nav-link.active:before {
   border: 2px solid #7428f2;
   content: "";
   left: 0.5em;

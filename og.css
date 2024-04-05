@@ -4117,6 +4117,7 @@ input[type="button"].btn-block {
 
 div[role="navigation"] {
   margin-left: 0;
+  max-width: 300px;
 }
 
 .nav-link {
@@ -9814,8 +9815,8 @@ select {
 
 @media (min-width: 992px) {
   .tab-pane {
-    flex: 0 0 65%;
-    max-width: 65%;
+    flex: 0 0 75%;
+    max-width: 75%;
   }
 }
 
@@ -10295,8 +10296,17 @@ body.dasignature a.btn-primary:focus {
 }
 
 #hslNav .hslNavContainer {
-  /*max-width: 1140px !important;*/
+  max-width: 1920px !important;
   padding: 30px 15px 20px !important;
+}
+
+.hslNavContainer,
+.container {
+  max-width: 2000px;
+}
+
+.row.tab-content {
+  justify-content: center;
 }
 
 @media (min-width: 992px) {
@@ -10863,7 +10873,7 @@ input[type="number"] {
 
 .row.tab-content > .danavdiv {
   flex: 0 0 21.666667%;
-  max-width: 21.666667%;
+  max-width: 400px;
 }
 
 .row.tab-content > section#daquestion {

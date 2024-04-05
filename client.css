@@ -4215,8 +4215,7 @@ div[role="navigation"] {
   z-index: 1;
 }
 
-.daclickable.nav-link.danavlink.active::before,
-.nav-link.active::before {
+.nav.nav-pills .nav-link.active:before {
   border: 2px solid #7428f2;
   content: "";
   left: 0.5em;
@@ -4227,7 +4226,6 @@ div[role="navigation"] {
   top: 50%;
   position: absolute;
 }
-
 .nav-pills .nav-link:not(.active).text-muted::before {
   border: 2px solid #6b6b6b;
   content: "";

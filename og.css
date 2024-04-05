@@ -4186,7 +4186,16 @@ div[role="navigation"] {
   color: #25262b !important;
 }
 
-
+.nav.nav-pills .nav-link:after {
+  content: "•";
+  font-size: 2.5em;
+  line-height: 2.1rem;
+  font-family: Inter, sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0.2em;
+  color: #d2d3d3;
+}
 
 .nav-pills .nav-link:not(.active):not(.text-muted)::after {
   content: "\2713";
@@ -4195,6 +4204,7 @@ div[role="navigation"] {
   left: 0.55em;
   transform: translateY(-70%);
   font-size: 1.2em;
+  line-height: 1.2em;
   font-family: Inter, sans-serif;
   color: #7428f2;
   z-index: 1;

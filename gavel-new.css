@@ -2500,8 +2500,11 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem #44178f;
-  box-shadow: none;
+  box-shadow: 0 0 0 0.1rem #44178f;
+  color: #fff;
+  background-color: #7428f2;
+  border-color: #7428f2;
+  border-radius: 4px;
 }
 
 .btn-primary.disabled,
@@ -2539,6 +2542,7 @@ fieldset:disabled a.btn {
   border-color: #7428f2;
 }
 
+.btn-secondary:focus,
 .btn-secondary.focus {
   box-shadow: 0 0 0 0.1rem #44178f;
   color: #7428f2;

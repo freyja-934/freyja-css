@@ -2539,7 +2539,6 @@ fieldset:disabled a.btn {
   border-color: #7428f2;
 }
 
-.btn-secondary:focus,
 .btn-secondary.focus {
   box-shadow: 0 0 0 0.1rem #44178f;
   color: #7428f2;

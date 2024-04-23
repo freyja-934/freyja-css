@@ -10347,6 +10347,10 @@ table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
   color: #fff;
 }
 
+color: #7428f2;
+background-color: rgba(117, 40, 242, 0.05);
+border-color: #7428f2;
+
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover,
 button.btn.dacollectremoveexisting:hover,
 button.btn.dacollectremove:hover {
@@ -10772,9 +10776,29 @@ label.danobold[for="da_attachment_include_editable"]:after {
 
 .table-responsive + p a.btn-success,
 .btn.dacollectadd {
-  background: #ddd;
-  color: #000;
-  border-color: #ddd;
+  color: #7428f2;
+  background-color: #fff;
+  border-color: #7428f2;
+  border-radius: 4px;
+  width: auto;
+}
+
+
+.table-responsive + p a.btn-success,
+.btn.dacollectadd .btn-secondary {
+  color: #7428f2;
+  background-color: #fff;
+  border-color: #7428f2;
+  border-radius: 4px;
+  width: auto;
+}
+
+.table-responsive + p a.btn-success:hover,
+.btn.dacollectadd:hover .btn-secondary:hover {
+  color: #7428f2;
+  background-color: #fff;
+  border-color: #7428f2;
+  border-radius: 4px;
   width: auto;
 }
 

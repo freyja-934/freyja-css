@@ -9666,18 +9666,22 @@ input.labelauty + label.btn-primary {
 
 input.labelauty + label.btn-light {
   background-color: #fff;
+  
 }
 
 input.labelauty + label.btn-light:hover {
   background-color: #eae2ff;
+
 }
 
 input.labelauty + label.btn-primary:hover {
   background-color: #eae2ff;
+  color: #000;
 }
 
 input.labelauty + label.btn-light:focus {
   background-color: #eae2ff;
+  color: #000;
 }
 
 input.labelauty + label.btn-primary {
@@ -9689,6 +9693,7 @@ input.labelauty + label.btn-primary:focus,
 input.labelauty + label.btn-primary:active,
 input.labelauty + label.btn-primary:not(:disabled):not(.disabled):active {
   background-color: #eae2ff;
+  color: #000;
 }
 
 input.labelauty + label .svg-inline--fa {

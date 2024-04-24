@@ -2500,8 +2500,11 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem #44178f;
-  box-shadow: none;
+  box-shadow: 0 0 0 0.1rem #44178f;
+  color: #fff;
+  background-color: #7428f2;
+  border-color: #7428f2;
+  border-radius: 4px;
 }
 
 .btn-primary.disabled,
@@ -2535,13 +2538,16 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
   color: #7428f2;
-  background-color: rgba(117, 40, 242, 0.05);
+  background-color: #f9f6ff;
   border-color: #7428f2;
 }
 
 .btn-secondary:focus,
 .btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem #44178f;
+  box-shadow: 0 0 0 0.1rem #44178f;
+  color: #7428f2;
+  background-color: #fff;
+  border-color: #7428f2;
 }
 
 .btn-secondary.disabled,
@@ -10347,6 +10353,10 @@ table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
   color: #fff;
 }
 
+color: #7428f2;
+background-color: rgba(117, 40, 242, 0.05);
+border-color: #7428f2;
+
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover,
 button.btn.dacollectremoveexisting:hover,
 button.btn.dacollectremove:hover {
@@ -10772,9 +10782,29 @@ label.danobold[for="da_attachment_include_editable"]:after {
 
 .table-responsive + p a.btn-success,
 .btn.dacollectadd {
-  background: #ddd;
-  color: #000;
-  border-color: #ddd;
+  color: #7428f2;
+  background-color: #fff;
+  border-color: #7428f2;
+  border-radius: 4px;
+  width: auto;
+}
+
+
+.table-responsive + p a.btn-success,
+.btn.dacollectadd .btn-secondary {
+  color: #7428f2;
+  background-color: #fff;
+  border-color: #7428f2;
+  border-radius: 4px;
+  width: auto;
+}
+
+.table-responsive + p a.btn-success:hover,
+.btn.dacollectadd:hover .btn-secondary:hover {
+  color: #7428f2;
+  background-color: #fff;
+  border-color: #7428f2;
+  border-radius: 4px;
   width: auto;
 }
 

@@ -291,6 +291,10 @@ input {
   overflow: visible;
 }
 
+.select2-search__field {
+outline-color: #7428f2;
+}
+
 button,
 select {
   text-transform: none;

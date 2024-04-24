@@ -2509,14 +2509,13 @@ fieldset:disabled a.btn {
   background-color: #44178f;
 }
 
-.btn-primary, .btn-check:hover {
+.btn-check:hover+.btn-primary, .btn-primary:hover {
   color: #fff;
   background-color: #44178f;
 }
 
 
-.btn-primary:focus,
-.btn-primary.focus {
+.btn-check:focus+.btn-primary, .btn-primary:focus {
   box-shadow: 0 0 0 0.1rem #44178f;
   color: #fff;
   background-color: #7428f2;

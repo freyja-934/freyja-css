@@ -9662,10 +9662,12 @@ input.labelauty + label.btn-light,
 input.labelauty + label.btn-primary {
   padding: 0.6875rem;
   border: 1px solid #eae2ff;
+  border: none;
 }
 
 input.labelauty + label.btn-light {
   background-color: #fff;
+  border: none;
   
 }
 
@@ -9677,16 +9679,19 @@ input.labelauty + label.btn-light:hover {
 input.labelauty + label.btn-primary:hover {
   background-color: #eae2ff;
   color: #000;
+  border: none;
 }
 
 input.labelauty + label.btn-light:focus {
   background-color: #eae2ff;
   color: #000;
+  border: none;
 }
 
 input.labelauty + label.btn-primary {
   background-color: #eae2ff;
   color: #000;
+  border: none;
 }
 
 input.labelauty + label.btn-primary:focus,
@@ -9694,6 +9699,7 @@ input.labelauty + label.btn-primary:active,
 input.labelauty + label.btn-primary:not(:disabled):not(.disabled):active {
   background-color: #eae2ff;
   color: #000;
+  border: none;
 }
 
 input.labelauty + label .svg-inline--fa {

@@ -10674,6 +10674,10 @@ form#dadownloadform .form-group div input[type="checkbox"] {
   top: 2px;
 }
 
+input[type='checkbox'] {
+  accent-color: #7428f2;
+}
+
 #daquestion .da-attachment-alert.da-attachment-alert-multiple,
 #daquestion .da-attachment-alert,
 h2.sr-only + .da-attachment-alert {

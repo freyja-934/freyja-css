@@ -2115,6 +2115,19 @@ textarea.form-control {
   position: absolute;
   margin-top: 0.3rem;
   margin-left: -1.25rem;
+
+}
+
+.form-check-input:checked {
+  accent-color: #7428f2;
+  background-color: #7428f2;
+  border-color: #7428f2;
+}
+
+.form-check-input:checked[type=checkbox] {
+  accent-color: #7428f2;
+  background-color: #7428f2;
+  border-color: #7428f2;
 }
 
 .form-check-input:disabled ~ .form-check-label {
@@ -10676,6 +10689,15 @@ form#dadownloadform .form-group div input[type="checkbox"] {
 
 input[type='checkbox'] {
   accent-color: #7428f2;
+  background-color: #7428f2;
+  border-radius: .25em;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #7428f2;
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 0;
 }
 
 #daquestion .da-attachment-alert.da-attachment-alert-multiple,
